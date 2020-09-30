@@ -1,0 +1,10 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 20px dotted black;
+    border-radius: 10px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Good_dog.jpg/200px-Good_dog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
