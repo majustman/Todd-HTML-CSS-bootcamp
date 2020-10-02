@@ -1,0 +1,10 @@
+p::first-letter {
+    font-family: "French Script MT";
+    font-size: 36px;
+    line-height: 1;
+}
+
+p::first-line {
+    color: red;
+    font-weight: 900;
+}
