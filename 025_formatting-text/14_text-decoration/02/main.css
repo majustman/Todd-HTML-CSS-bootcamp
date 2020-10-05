@@ -1,0 +1,15 @@
+html {
+    font-size: 15rem;
+}
+
+p {
+    color: lawngreen;
+
+    /*text-decoration: line-through underline overline;*/
+    text-decoration: line-through wavy black;
+
+    /* these didn't work for me*/
+    /*text-decoration-line: underline;*/
+    /*text-decoration-color: darkgreen;*/
+    /*text-decoration-style: wavy;*/
+}
