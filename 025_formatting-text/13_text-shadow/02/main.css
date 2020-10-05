@@ -1,0 +1,37 @@
+html {
+    background-color: #00C957;
+}
+
+p {
+    /*font-size: 3rem;*/
+    font-size: 3vw;
+    border: 1px solid black;
+    /*width: 1200px;*/
+    width: 80%;
+    padding: 20px;
+}
+
+h1 {
+    /*font-size: 8rem;*/
+    font-size: 8vw;
+    text-shadow: 3px 3px 1px #c9c9c9;
+    border: 3px solid black;
+    /*width: 1300px;*/
+    width: 90%;
+}
+
+h1, p {
+    font-family: 'Great Vibes', cursive;
+    margin: 0 auto;
+
+    /*TRBL*/
+    /*margin: 10px;*/
+
+    /*TB RL*/
+    /*margin: 10px 8px;*/
+
+    /*T R B L;*/
+    /*margin: 10px 8px 0px 10px;*/
+
+    text-align: center;
+}
