@@ -1,0 +1,22 @@
+body {
+    max-width: 800px;
+}
+
+.c1 {
+    width: 100%;
+    order: 1;
+}
+
+.c8 {
+    width: 100%;
+    order: 2;
+}
+
+.c9 {
+    width: 100%;
+    order: 3;
+}
+
+.c2, .c3, .c4, .c5, .c6, .c7 {
+    width: 33.3%;
+}

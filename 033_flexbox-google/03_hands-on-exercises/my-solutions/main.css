@@ -1,0 +1,23 @@
+html, body {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    box-sizing: border-box;
+    border: 5px solid black;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9 {
+    width: 100%;
+    min-height: 150px;
+}
+
+.c8, .c9 {
+    display: flex;
+    flex-flow: row wrap;
+}
