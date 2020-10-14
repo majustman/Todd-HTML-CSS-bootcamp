@@ -1,0 +1,29 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: 2px solid red;
+    font-weight: bold;
+}
+
+#one {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: tomato;
+    width: 400px;
+    height: 400px;
+}
+
+#two {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    background-color: fuchsia;
+    width: 100px;
+    height: 100px;
+}
