@@ -1,0 +1,33 @@
+#idx-atf {
+    background-color: darkgray;
+    background-image: url("../img/background-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-origin: border-box;*/
+    background-attachment: fixed;
+}
+
+html {
+    color: whitesmoke;
+    font-family: 'Cantarell', sans-serif;
+}
+
+h2, button {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+h2, h3, button {
+    font-size: 1vw;
+}
+
+button {
+    border: 1px solid rgb(202, 250,234);
+    color: rgb(202, 250,234);
+    border-radius: 5%;
+    padding: .7rem 1.2rem;
+}

@@ -1,0 +1,25 @@
+#idx-atf {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#idx-atf > div {
+    height: 24vh;
+    /*border: 5px solid red;*/
+}
+
+.idx-center-spacebetween {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idx-center-center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
