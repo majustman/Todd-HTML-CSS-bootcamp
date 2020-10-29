@@ -1,0 +1,133 @@
+html {
+    font-family: 'Cantarell', sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    /* layout */
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background */
+    background-color: rgba(0,0,0,0.6);
+}
+
+header div a h1, footer nav a h1 {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+header div {
+    width: 300px;
+    height: 80%;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header div a:hover {
+    color: #9dbb88;/*apply to svg and h1*/
+}
+
+header nav, header div a svg {
+    display: none;
+}
+
+#idx-atf {
+    /* layout */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background */
+    background-color: #5b5b5b;
+    background-image: url("../img/background-photo-mobile-devices.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-origin: border-box;*/
+    background-attachment: fixed;
+    /* formatting */
+}
+
+#idx-atf > div {
+    margin-top: 40px;
+    height: 80vh;
+}
+
+.idx-center-spacebetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idx-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: .8rem;
+    line-height: 1.2;
+}
+
+button {
+    color: #9dbb88;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 1px solid rgb(202, 250, 234);
+    padding: .7rem 1.2rem;
+    border-radius: 3px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    background-color: deepskyblue;
+}
+
+footer nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+footer nav a {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+footer nav a:hover {
+    background-color: #3A5FCD;
+}

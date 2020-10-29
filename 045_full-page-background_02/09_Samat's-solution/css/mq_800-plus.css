@@ -1,0 +1,59 @@
+header {
+    justify-content: space-between;
+}
+
+header div {
+    justify-content: flex-start;
+}
+
+header div a svg {
+    display: flex;
+}
+
+header div a h1 {
+    margin-left: .5rem;
+}
+
+header nav {
+    width: 300px;
+    height: 80%;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    height: 100%;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    /*border: 2px solid red;*/
+}
+
+header nav a:hover {
+    color: #9dbb88;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+footer {
+    display: none;
+}
+
+#idx-atf {
+    background-image: url("../img/background-photo.jpg");
+}
+
+#idx-atf > div {
+    /*margin-top: 4rem;*/
+    height: 18vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    margin-top: .4rem;
+}
