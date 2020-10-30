@@ -1,0 +1,58 @@
+html, body, div, h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 5px solid hotpink;*/
+}
+
+#first, #second, #third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+#first {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#third {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#second {
+    width: 60%;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+
+#first, #third {
+    width: 20%;
+    background-color: deepskyblue;
+    border: 1px solid blue;
+}
+
+#first:hover, #third:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+

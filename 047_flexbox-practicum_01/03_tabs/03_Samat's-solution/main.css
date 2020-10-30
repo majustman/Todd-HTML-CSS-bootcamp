@@ -1,0 +1,46 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 3vw;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#atf {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid hotpink;*/
+}
+
+#tab {
+    width: 80%;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid dimgray;
+}
+
+#tab > div {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tab > div:hover {
+    border-bottom: 5px solid #07d7c4;
+    cursor: pointer;
+}
