@@ -1,0 +1,36 @@
+html, body, h1 {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+    color: red;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 10rem;
+    animation: change-font-size;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    /*animation-delay: 0s*/
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /*animation-fill-mode: none*/
+    /*animation-play-state: running*/
+}
+
+@keyframes change-font-size {
+    0% {font-size: 10rem;}
+    100% {font-size: 1rem}
+}
