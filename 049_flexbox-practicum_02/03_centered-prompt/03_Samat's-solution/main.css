@@ -1,0 +1,42 @@
+html, body, div, svg, h1, p, button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+    color: lightgrey;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 10rem;
+}
+
+svg {
+    fill: currentColor;
+}
+
+h1 {
+    font-size: 8rem;
+    color: grey;
+}
+
+p {
+    font-size: 4rem;
+    color: darkgrey;
+}
+
+button {
+    font-size: 3rem;
+    padding: 1rem 3rem;
+    background-color: deepskyblue;
+    color: whitesmoke;
+    border-radius: 7%;
+}

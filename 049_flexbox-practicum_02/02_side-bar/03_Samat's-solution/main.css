@@ -1,0 +1,43 @@
+html, body, nav, div, button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: unset;
+}
+
+html {
+    font-size: 1vw;
+    color: deepskyblue;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+nav {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border-right: 0.2rem solid #d9d9d9;
+}
+
+nav div {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+button {
+    padding: 1rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    color: currentColor;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #eae5e5;
+}

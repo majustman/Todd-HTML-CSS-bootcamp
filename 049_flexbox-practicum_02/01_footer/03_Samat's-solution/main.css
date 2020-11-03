@@ -1,0 +1,96 @@
+/*
+animation-name: none
+animation-duration: 0s
+animation-timing-function: ease
+animation-delay: 0s
+animation-iteration-count: 1
+animation-direction: normal
+animation-fill-mode: none
+animation-play-state: running
+*/
+
+html, body, div, footer, svg, use, span, nav, button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: unset;
+}
+
+html {
+    font-size: 1vw;
+    color: dimgrey;
+}
+
+#atf {
+    /*layout*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /*formatting*/
+    text-align: center;
+    font-size: 8rem;
+    color: currentColor;
+}
+
+footer {
+    width: 95vw;
+    height: 8rem;
+    /*margin: 0 1rem;*/
+    position: fixed;
+    left: 2.5vw;
+    top: 80vh;
+    display: flex;
+    align-items: center;
+    border-top: 0.25rem solid currentColor;
+}
+
+footer div {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 4rem;
+}
+
+svg {
+    width: 4rem;
+    height: 4rem;
+    fill: currentColor;
+    animation-name: spinnig;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinnig {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+span {
+    font-size: 3rem;
+    color: currentColor;
+    margin-left: 1rem;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+}
+
+nav button {
+    font-size: 3rem;
+    color: deepskyblue;
+    padding: 0 2rem;
+}
+
+nav button:hover {
+    color: white;
+    background-color: deepskyblue;
+}
